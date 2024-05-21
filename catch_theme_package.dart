@@ -1,0 +1,118 @@
+import 'package:flutter/material.dart';
+
+class CustomTextTheme {
+  static const Color titleColor = Colors.black; // Define your title_color here
+
+  static TextTheme get customTextTheme {
+    return const TextTheme(
+      displayLarge: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: -2,
+        fontSize: 60,
+        height: 60,
+      ),
+      displayMedium: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: -2,
+        fontSize: 48,
+        height: 56,
+      ),
+      headlineLarge: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: -2,
+        fontSize: 40,
+        height: 48,
+      ),
+      headlineMedium: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 32,
+        height: 40,
+      ),
+      headlineSmall: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.w500,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 32,
+        height: 40,
+      ),
+      titleLarge: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 24,
+        height: 28,
+      ),
+      titleMedium: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.w500,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 24,
+        height: 28,
+      ),
+      titleSmall: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 20,
+        height: 24,
+      ),
+      bodyLarge: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 16,
+        height: 20,
+      ),
+      bodyMedium: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.w500,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 14,
+        height: 16,
+      ),
+      bodySmall: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.w400,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 14,
+        height: 16,
+      ),
+      labelLarge: TextStyle(
+        color: titleColor,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Inter',
+        fontStyle: FontStyle.normal,
+        letterSpacing: 0,
+        fontSize: 12,
+        height: 16,
+      ),
+    );
+  }
+}
